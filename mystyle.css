@@ -1,0 +1,81 @@
+body {
+  background-color: #ec9b01;
+  font-family: josefin sans, sans-serif;
+  transition: 0.3s;
+  padding: 0;
+}
+#mainNavBar {
+  font-size: 1.5rem;
+}
+#mainNavBar .nav-link {
+  color: #e9d9a6;
+}
+#mainNavBar .nav-link:hover {
+  color: #af1f14;
+}
+#mainNavBar .navbar-brand {
+  color: #af1f14;
+  font-size: 1.5rem;
+}
+#mainNavBar.scrolled {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.562),
+    rgba(0, 0, 0, 0)
+  );
+  transition: all 2s ease-in-out 2s;
+  /* background-color: rgba(0, 0, 0, 0.562);
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s; */
+}
+
+.img-fluid {
+  height: 60vw;
+  width: auto;
+  object-fit: cover;
+  object-position: center;
+}
+#super {
+  color: #72151d;
+}
+.img-fluid2 {
+  height: auto;
+  width: 100%;
+}
+.logo {
+  height: 30px;
+}
+.heading {
+  color: #005e5f;
+  font-size: 1.5rem;
+}
+.heading-red {
+  color: #72151d;
+}
+.heading-yellow {
+  color: #e9d9a6;
+}
+.lead {
+  font-size: 1rem;
+}
+.container-fluid {
+  margin-bottom: 100px;
+}
+footer {
+  text-shadow: 2px 2px 2px black;
+  color: #ec9b01;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.hdqwalls.com/wallpapers/joker-end-scene-dance-5j.jpg");
+  background-size: cover;
+}
+@media (max-width: 950px) {
+  #heading_group h2 {
+    font-size: 2.4rem;
+  }
+}
